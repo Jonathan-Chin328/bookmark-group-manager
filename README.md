@@ -44,7 +44,6 @@ cd frontend && yarn start
 - username: `gordon` password: `0000`
 - username: `Catherine` password: `0000`
 - username: `Jonathan` password: `123456`
-![login page](./frontend/readmeImg/login.png)
 
 
 ### Google Chrome Extension
@@ -59,11 +58,11 @@ cd extension && yarn install
 yarn run build
 ```
 3. Open chrome extension page \
-![alt extension upload](./extension/extension1.png)
+
 Make sure to **turn on the developer mode**, then upload the **`build`** file by unpackage \
-![alt extension upload](./extension/extension12.png)
+
 4. There might be an error after you open the extension due to Content Security Policy, please click the error button and copy the sha hash. \
-![alt extension upload](./extension/extension3.gif)
+
 
 5. Open `manifest.json` in `build` folder, and replace  `'sha256-QwxlXLoC5w6m/a9CSpPPLWNmP5D6qbbWh8h/8abQSJM='` with the hash copied in previous step.
 ``` json
@@ -73,7 +72,7 @@ Make sure to **turn on the developer mode**, then upload the **`build`** file by
 ```
 
 6. Reupload the **`build`** file and you could open extension \
-![alt extension upload](./extension/extension4.png)
+
 
 ---
 
